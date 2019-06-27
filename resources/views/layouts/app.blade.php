@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
         <title>TaskList</title>
         
         <!-- Bootstrap -->
@@ -19,5 +21,6 @@
         @include('commons.error_messages')
         
         @yield('content')
+        </div>
     </body>
 </html>
